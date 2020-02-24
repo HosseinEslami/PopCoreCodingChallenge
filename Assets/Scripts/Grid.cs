@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 
 public class Grid : MonoBehaviour {
 
@@ -487,6 +488,14 @@ public class Grid : MonoBehaviour {
             Ball lastBall = activeBalls[i].GetComponent<Ball>();
 			if (lastBall.row < lowestFilledRow) lowestFilledRow = lastBall.row;
 		}
+
+        if (lowestFilledRow >= 10)
+        {
+			GameController.gameController.popUpFader.SetActive(true);
+            GameController.gameController.BlockTouch(true);
+
+            GameController.gameController.popUpFader.GetComponentInChildren<TMP_Text>().text = "PERFECT!! ";
+        }
 
 		//Debug.Log(lowestFilledRow + " " + minmumLineNumb);
 		scrollAndAddLines = lowestFilledRow >= minmumLineNumb;
