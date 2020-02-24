@@ -1,0 +1,4 @@
+#Mon Feb 24 23:46:02 IRST 2020
+base.0=D\:\\Unity\\Match3\\bubbleShooterUpdate\\BubbleShooterPopcoreChallenge\\BubbleShooterPopcoreChallenge\\Temp\\gradleOut\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

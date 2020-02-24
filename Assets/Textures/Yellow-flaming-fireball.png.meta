@@ -1,0 +1,610 @@
+fileFormatVersion: 2
+guid: 9a39413846fb5c9419026dc478564cc8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2018981401179519806
+    second: Yellow-flaming-fireball_0
+  - first:
+      213: 5716045454945366434
+    second: Yellow-flaming-fireball_1
+  - first:
+      213: -5048512698547375981
+    second: Yellow-flaming-fireball_2
+  - first:
+      213: -4316680956733441910
+    second: Yellow-flaming-fireball_3
+  - first:
+      213: 5091564058634877811
+    second: Yellow-flaming-fireball_4
+  - first:
+      213: 5355915643101934695
+    second: Yellow-flaming-fireball_5
+  - first:
+      213: -7542761159119123397
+    second: Yellow-flaming-fireball_6
+  - first:
+      213: -7966274974681507820
+    second: Yellow-flaming-fireball_7
+  - first:
+      213: -6401570097579088928
+    second: Yellow-flaming-fireball_8
+  - first:
+      213: 6688823249975415966
+    second: Yellow-flaming-fireball_9
+  - first:
+      213: -8612074832336766419
+    second: Yellow-flaming-fireball_10
+  - first:
+      213: 1645557956768986471
+    second: Yellow-flaming-fireball_11
+  - first:
+      213: -4936805052415979181
+    second: Yellow-flaming-fireball_12
+  - first:
+      213: -9048565018057735139
+    second: Yellow-flaming-fireball_13
+  - first:
+      213: -5172980249413677747
+    second: Yellow-flaming-fireball_14
+  - first:
+      213: -7953352146321655667
+    second: Yellow-flaming-fireball_15
+  - first:
+      213: 7653221059892122300
+    second: Yellow-flaming-fireball_16
+  - first:
+      213: 3365173559866602000
+    second: Yellow-flaming-fireball_17
+  - first:
+      213: 4797558698390698149
+    second: Yellow-flaming-fireball_18
+  - first:
+      213: -2792992828774168783
+    second: Yellow-flaming-fireball_19
+  - first:
+      213: 6014083228851513296
+    second: Yellow-flaming-fireball_20
+  - first:
+      213: -4573846993335577135
+    second: Yellow-flaming-fireball_21
+  - first:
+      213: 4000215854768730894
+    second: Yellow-flaming-fireball_22
+  - first:
+      213: -823836338570691347
+    second: Yellow-flaming-fireball_23
+  - first:
+      213: 8692581895378659104
+    second: Yellow-flaming-fireball_24
+  - first:
+      213: 3788130503869351787
+    second: Yellow-flaming-fireball_25
+  - first:
+      213: 8216737890117608991
+    second: Yellow-flaming-fireball_26
+  - first:
+      213: -7321559880795685599
+    second: Yellow-flaming-fireball_27
+  - first:
+      213: 8329559589755119400
+    second: Yellow-flaming-fireball_28
+  - first:
+      213: -304213473543775038
+    second: Yellow-flaming-fireball_29
+  - first:
+      213: 4253914145242691558
+    second: Yellow-flaming-fireball_30
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Yellow-flaming-fireball_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 275
+        width: 97
+        height: 39
+      alignment: 9
+      pivot: {x: 0.29773608, y: 0.5289823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e825b9b7970b5459958a80149b8e2e
+      internalID: 2018981401179519806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-flaming-fireball_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 275
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fe538c1f08a4a4bb0a60a1c104c78b
+      internalID: -5048512698547375981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-flaming-fireball_3
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 276
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce3bd967b6ce19438ec9ffc373c397e
+      internalID: -4316680956733441910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-flaming-fireball_5
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 277
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3b33111959850459758cb5fd4b0e0a
+      internalID: 5355915643101934695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-flaming-fireball_7
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 208
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14905859459508841b406efe35dd85fe
+      internalID: -7966274974681507820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-flaming-fireball_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 207
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e8be52dcce966469ed34fd629fbd7b
+      internalID: 6688823249975415966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-flaming-fireball_11
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 206
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6caa5dd19af084bb256500bc0fa31e
+      internalID: 1645557956768986471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-flaming-fireball_13
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 207
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1f43fd9104b4949b9622da74a57c56
+      internalID: -9048565018057735139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-flaming-fireball_14
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 139
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a76d99f7fa1fa9448a7641479aecb19
+      internalID: -5172980249413677747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-flaming-fireball_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 139
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d66ca12bab68345a8a69330563247e
+      internalID: 3365173559866602000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-flaming-fireball_19
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 139
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60ff2ab8b65fdd408761a846824e375
+      internalID: -2792992828774168783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-flaming-fireball_20
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 139
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d687a841604ccf4285628ce75bd2771
+      internalID: 6014083228851513296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-flaming-fireball_23
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 71
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ac45175c2451f4f88c76d3591b77c6
+      internalID: -823836338570691347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-flaming-fireball_25
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 71
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8050b254189a54fb0e56e20d482990
+      internalID: 3788130503869351787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-flaming-fireball_27
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 71
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0547a26264ec95c4db63aa2660567046
+      internalID: -7321559880795685599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-flaming-fireball_28
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 70
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a389dde1bd9dd14d9f6a63191b76ba8
+      internalID: 8329559589755119400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-flaming-fireball_29
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 3
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582905e2fd2d6554f862c8bc3db2c525
+      internalID: -304213473543775038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-flaming-fireball_30
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 3
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05e9b40e885d3040a8e5ba8973177c9
+      internalID: 4253914145242691558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9e6ff8c2327fb804eb8bba68f64349b6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
