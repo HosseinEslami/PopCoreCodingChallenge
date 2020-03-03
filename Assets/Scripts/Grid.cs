@@ -134,6 +134,42 @@ public class Grid : MonoBehaviour {
         lowestLineNumb++;
     }
 
+    void RemoveLine()
+    {
+   //     var rowBalls = new List<Ball>();
+
+   //     for (int column = 0; column < COLUMNS; column++)
+   //     {
+   //         var ball = gridBalls[ROWS-1][column].GetComponent<Ball>();
+   //         //Debug.Log(ball.row + " " + ball.column);
+   //         rowBalls.Add(ball);
+
+			////Destroy(ball.gameObject);
+   //     }
+
+		//gridBalls.Remove(rowBalls);
+		MoveAllRowsUp();
+        //scrollAndAddLines = false;
+        //minmumLineNumb++;
+        //lowestLineNumb++;
+    }
+
+    void MoveAllRowsUp()
+    {
+        for (int row = ROWS-1; row > 0; row--)
+        {
+            var rowBalls = new List<Ball>();
+
+            for (int column = 0; column < COLUMNS; column++)
+            {
+                //var ball = gridBalls[row][column].GetComponent<Ball>();
+                gridBalls[row][column].SetType(gridBalls[row-1][column].type);
+                gridBalls[row][column].gameObject.SetActive(gridBalls[row-1][column].gameObject.activeInHierarchy);
+                //ball.gameObject.SetActive(false);
+            }
+        }
+    }
+
     public void AddBall (Ball collisionBall, Bullet bullet) 
 	{
 
@@ -501,11 +537,16 @@ public class Grid : MonoBehaviour {
 		scrollAndAddLines = lowestFilledRow >= minmumLineNumb;
 
 
-        scrollUp = lowestFilledRow <= lowestLineNumb;
-    }
+        if(lowestFilledRow <= lowestLineNumb) MoveAllRowsUp();
+	}
 
 	void Update()
     {
+        if (Input.GetKeyDown("space"))
+        {
+            RemoveLine();
+        }
+
         if (scrollAndAddLines)
         {
             //Debug.Log("ScrollAndAddLine");
@@ -523,20 +564,21 @@ public class Grid : MonoBehaviour {
                 //FindActiveBalls();
             }
         }
-		else if (scrollUp)
-		{
-			var p = transform.position;
-			p.y += Time.deltaTime * GRID_SPEED;
-			transform.position = p;
+		//else if (scrollUp)
+		//{
+		//	var p = transform.position;
+		//	p.y += Time.deltaTime * GRID_SPEED;
+		//	transform.position = p;
 
-            if (gridBalls[gridBalls.Count - 1][0].transform.position.y > moveUp)
-            {
-                scrollUp = false;
-                moveUp += 0.5f;
-                lowestLineNumb--;
-                minmumLineNumb--;
-            }
-		}
+  //          if (gridBalls[gridBalls.Count - 1][0].transform.position.y > moveUp)
+  //          {
+  //              MoveAllRowsUp();
+		//		scrollUp = false;
+  //              moveUp += 0.5f;
+  //              lowestLineNumb--;
+  //              minmumLineNumb--;
+  //          }
+		//}
 
 	}
 
